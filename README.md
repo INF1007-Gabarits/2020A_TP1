@@ -1,11 +1,16 @@
-# À compléter
+# TP1
 
 <!--- Changer la date de remise en modifiant le URL--->
 #### :alarm_clock: [Date de remise](https://www.timeanddate.com/countdown/generic?iso=20210131T2359&p0=165&msg=Remise&font=cursive&csz=1#)
 
-#Capitalisation de noms de pays
+## Objectif
 
-Avant de commencer. Consulter les instructions à suivre dans instructions.md
+Ce TP à pour objectif de vous introduire à l'algorithmie avec le langage de programmation python.
+Celui-ci est composé de 5 exercices différent et vous devez compléter le code à chaque fois que vous voyez l'indicateur "TODO".
+
+## Consignes à respecter
+
+Tout d'abord, nous vous recomandons de télécharger l'environement de développement Pycharm, dont la licen
 Objectif
 
 Modifier les casses de noms de pays afin que:
