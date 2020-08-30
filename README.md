@@ -17,11 +17,14 @@ Pour ce TP certaines contraintes sont a respectés:
 - Il est interdit d'utiliser les structures de répetitions(for, while, etc.) 
 
 ## Exercice 1:
-Dans cet exercice vous devrez calculer l'énergie cinetique d'une voiture à partir de sa masse. L'énergie cinetique se calcul à partir de la formule: $$\E_{c}= m*v^2/2$$
+Dans cet exercice vous devrez calculer l'énergie cinetique d'une voiture à partir de sa masse. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, vous devez compléter la fonction "calculerEnergie" qui à pour argument la masse et la vitesse.
 ```python
-def capitaliser_pays(nom):
-    #TODO completer la fonction
-    return nom
+    def calculerEnergie:
+        # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
+        vitesse=
+        # TODO calculer l'energie cinetique, assigner la valeur à la variable "energieCinetique"
+        energieCinetique=
+        return energieCinetique
 ```
 Exemple
 
