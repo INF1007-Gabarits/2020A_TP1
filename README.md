@@ -16,9 +16,13 @@ Pour ce TP certaines contraintes sont a respectés:
 - Il est interdit de manipuler des chaines de caractère.
 - Il est interdit d'utiliser les structures de répetitions(for, while, etc.) 
 
-    Les mots de liaisons (ex.: and) soient en casses minuscules
-    Les premières lettres de noms soient en casses majuscules
-
+## Exercice 1:
+Dans cet exercice vous devrez calculer l'énergie cinetique d'une voiture à partir de sa masse. L'énerhie cinetique se calcul à partir de la formule: $\$E_{c}= m*v^2/2$
+```python
+def capitaliser_pays(nom):
+    #TODO completer la fonction
+    return nom
+```
 Exemple
 
 print(capitaliser_pays('antigua ANd barbuda'))
