@@ -31,6 +31,7 @@ Dans cet exercice vous devez calculer l'énergie cinetique d'une voiture. Le pro
 
 ## Exercice 2:
 Dans cet exercice vous devez résoudre une equation quadratique de la forme $A$. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction "calculerEnergie".
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 ```python
     def calculerEnergie(masse,vitesse):
         # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
