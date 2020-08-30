@@ -10,12 +10,11 @@ Celui-ci est composé de 5 exercices différent et vous devez compléter le code
 
 ## Consignes à respecter
 
-Tout d'abord, assurez-vous d'avoir lu le fichier instruction.md et télécharger le fichier main.py que vous devrez completer.
+Tout d'abord, assurez-vous d'avoir lu le fichier instruction.md et d'avoir télécharger le fichier main.py que vous devrez completer.
 Pour ce TP certaines contraintes sont a respectés:
 - Vous ne pouvez pas importer d'autre librairies
 - Il est interdit de manipuler des chaines de caractère.
 - Il est interdit d'utiliser les structures de répetitions(for, while, etc.) 
-Modifier les casses de noms de pays afin que:
 
     Les mots de liaisons (ex.: and) soient en casses minuscules
     Les premières lettres de noms soient en casses majuscules
