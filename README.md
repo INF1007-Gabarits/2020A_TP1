@@ -17,13 +17,28 @@ Pour ce TP certaines contraintes sont a respectés:
 - Il est interdit d'utiliser les structures de répetitions(for, while, etc.) 
 
 ## Exercice 1:
-Dans cet exercice vous devrez calculer l'énergie cinetique d'une voiture à partir de sa masse. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, vous devez compléter la fonction "calculerEnergie" qui à pour argument la masse et la vitesse.
+Dans cet exercice vous devez calculer l'énergie cinetique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction "calculerEnergie".
 ```python
-    def calculerEnergie:
+    def calculerEnergie(masse,vitesse):
         # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
         vitesse=
+        
         # TODO calculer l'energie cinetique, assigner la valeur à la variable "energieCinetique"
         energieCinetique=
+        
+        return energieCinetique
+```
+
+## Exercice 2:
+Dans cet exercice vous devez résoudre une equation quadratique de la forme $A$. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction "calculerEnergie".
+```python
+    def calculerEnergie(masse,vitesse):
+        # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
+        vitesse=
+        
+        # TODO calculer l'energie cinetique, assigner la valeur à la variable "energieCinetique"
+        energieCinetique=
+        
         return energieCinetique
 ```
 Exemple
