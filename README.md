@@ -31,7 +31,6 @@ Dans cet exercice vous devez calculer l'énergie cinetique d'une voiture. Le pro
 
 ## Exercice 2:
 Dans cet exercice vous devez résoudre une equation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir a,b,c il suffit de compléter la fonction "resoudreEquation".
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 ```python
     def calculerEnergie(masse,vitesse):
         # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
@@ -42,42 +41,35 @@ Dans cet exercice vous devez résoudre une equation quadratique de la forme <img
         
         return energieCinetique
 ```
-Exemple
-
-print(capitaliser_pays('antigua ANd barbuda'))
-
-Antigua and Barbuda
-À compléter
-
-Vous devez compléter la fonction suivante du fichier exercice.py.
-
-def capitaliser_pays(nom):
-    #TODO completer la fonction
-    return nom
-
-Connaissances utiles
-Changement de casse
-
-chaine = "Hello, World!"
-print(chaine.upper())
-print(chaine.lower())
-print(chaine.capitalize())
-print(chaine.swapcase())
-
-HELLO, WORLD!
-hello, world!
-Hello, world!
-hELLO, wORLD!
-Remplacement de sous-chaîne (substring)
-
-print(chaine.replace('Hello', 'Bonjour'))
-
-Bonjour, World!
-Trouver une sous-chaîne ou un charactère
-
-# retourne le premier indice trouvé
-print(chaine.find('o'))
-print(chaine.find('World'))
-
-4
-7
+## Exercice 3:
+Dans cet exercice vous devez calculer le nombre de chiffre qui compose un nombre indiquez par l'utilisateur. Cepandant vous pouvez uniquement utiliser les fonctions de la libraire Math.
+```python
+    def calculerNombreDeChifres(nombre):
+        # TODO calculer le nombre de chiffre à partir du nombre
+        nombreDeChiffres=
+        
+        # TODO afficher à l'écran le resultat
+        
+        
+        return nombreDeChiffres
+```
+## Exercice 4:
+Dans cet exercice vous devez convertir des secondes en nombres d'annés,semaine,jours,heures,minute et secondes. Par exemple si l'utilisateur rentre le le chiffre '633323104' votre programme devra renvoyé 20 années, 4 semaine, 2 jours, 3 heures, 5 minute et 4 seconde.
+```python
+   def convertir(secondes):
+        #TODO: assigné à la variable "annees" le nombre d'années
+        annees=
+        #TODO: assigné à la variable "semaines" le nombre de semaines
+        semaines=
+        # TODO: assigné à la variable "jours" le nombre de jours
+        jours= 
+        # TODO: assigné à la variable "heures" le nombre d'heures
+        heures= 
+        # TODO: assigné à la variable "minute" le nombre de minute
+        #indiquez le nombre de minute
+        minutes= 
+        # TODO: assigné à la variable "secondes" le nombre de secondes
+        secondes
+        
+        return (annees,semaines,jours,heures,minutes,secondes)
+```
