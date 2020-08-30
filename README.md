@@ -30,7 +30,7 @@ Dans cet exercice vous devez calculer l'énergie cinetique d'une voiture. Le pro
 ```
 
 ## Exercice 2:
-Dans cet exercice vous devez résoudre une equation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2 + bx + c">. Le programme commence en demandant à l'utilisateur de saisir a,b,c il suffit de compléter la fonction "resoudreEquation".
+Dans cet exercice vous devez résoudre une equation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir a,b,c il suffit de compléter la fonction "resoudreEquation".
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 ```python
     def calculerEnergie(masse,vitesse):
