@@ -32,44 +32,83 @@ Dans cet exercice vous devez calculer l'énergie cinetique d'une voiture. Le pro
 ## Exercice 2:
 Dans cet exercice vous devez résoudre une equation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir a,b,c il suffit de compléter la fonction "resoudreEquation".
 ```python
-    def calculerEnergie(masse,vitesse):
-        # TODO convertir la vitesse en metre par seconde, assigner la valeur à la variable "vitesse"
-        vitesse=
-        
-        # TODO calculer l'energie cinetique, assigner la valeur à la variable "energieCinetique"
-        energieCinetique=
-        
-        return energieCinetique
+    def resoudreEquation(a, b, c):
+    # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
+    delta =
+
+    # TODO: Déterminer la condition (bool) qui correspond à aucune solution de l'équation et mettre la valeur dans la variable "naPasDeSolution"
+    naPasDeSolution =
+
+    if naPasDeSolution:
+        # ces ligne de code seront executé si il y'a aucune racine
+        # TODO: afficher sur l'écran "Aucune racine"
+
+        # ne pas modifier
+        return None
+
+    # TODO: Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
+    aUneSeuleSolution =
+
+    if aUneSeuleSolution:
+        # ces ligne de code seront executé si il y'a une seule racine
+        # TODO: afficher sur l'écran "Une seule racine"
+
+        # TODO: assigner a la variable x1 la valeur de la racine
+        x1 =
+        # ne pas modifier
+        return x1
+
+    # TODO: Déterminer la condition (bool) qui correspond à deux solutions de l'équation et mettre la valeur dans "aDeuxSolutions"
+    aDeuxSolutions =
+
+    if aDeuxSolutions:
+        # TODO: afficher sur l'écran "Deux racines"
+
+        # TODO: calculer la prmiere racine, assigner la a "x1"
+        x1 =
+
+        # TODO: calculer la deuxieme racine, assigner la a "x2"
+        x2 =
+
+        # ne pas modifier cette ligne
+        return x1, x2
 ```
 ## Exercice 3:
 Dans cet exercice vous devez calculer le nombre de chiffre qui compose un nombre indiquez par l'utilisateur. Cepandant vous pouvez uniquement utiliser les fonctions de la libraire Math.
 ```python
-    def calculerNombreDeChifres(nombre):
-        # TODO calculer le nombre de chiffre à partir du nombre
-        nombreDeChiffres=
-        
-        # TODO afficher à l'écran le resultat
-        
-        
+    def calculerNombreChiffres(nombre):
+
+        # TODO: Déterminer le nombre de chiffres de "nombre" et mettre la valeur dans "nombreDeChiffres"
+        nombreDeChiffres =
+
+        # TODO: Afficher la valeur de "nombreDeChiffres"
+
         return nombreDeChiffres
 ```
 ## Exercice 4:
-Dans cet exercice vous devez convertir des secondes en nombres d'annés,semaine,jours,heures,minute et secondes. Par exemple si l'utilisateur rentre le le chiffre '633323104' votre programme devra renvoyé 20 années, 4 semaine, 2 jours, 3 heures, 5 minute et 4 seconde.
+Dans cet exercice vous devez convertir des secondes en nombres d'annés,semaine,jours,heures,minute et secondes. Par exemple si l'utilisateur rentre le le chiffre '633323104' votre programme devra renvoyé 20 années, 4 semaine, 2 jours, 3 heures, 5 minute et 4 seconde. Vous pouvez allouer de nouvelle variables pour vous aider.
 ```python
-   def convertir(secondes):
-        #TODO: assigné à la variable "annees" le nombre d'années
-        annees=
-        #TODO: assigné à la variable "semaines" le nombre de semaines
-        semaines=
-        # TODO: assigné à la variable "jours" le nombre de jours
-        jours= 
-        # TODO: assigné à la variable "heures" le nombre d'heures
-        heures= 
-        # TODO: assigné à la variable "minute" le nombre de minute
-        #indiquez le nombre de minute
-        minutes= 
-        # TODO: assigné à la variable "secondes" le nombre de secondes
-        secondes
-        
-        return (annees,semaines,jours,heures,minutes,secondes)
+    def decomposer(secondes):
+        # TODO: Assigner à la variable "annees" le nombre d'années
+        annees =
+
+        # TODO: Assigner à la variable "semaines" le nombre de semaines restantes
+        semaines =
+
+        # TODO: Assigner à la variable "jours" le nombre de jours restants
+        jours =
+
+        # TODO: Assigner à la variable "heures" le nombre d'heures restantes
+        heures =
+
+        # TODO: Assigner à la variable "minute" le nombre de minutes restantes
+        minutes =
+
+        # TODO: Assigner à la variable "secondes" le nombre de secondes restantes
+        secondes =
+
+        # TODO: Afficher le nombres d'années, semaines, jours, heures, minutes et secondes
+        print(annees ,semaines ,jours ,heures ,minutes ,secondes)
+
+        return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
