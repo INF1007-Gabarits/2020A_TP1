@@ -124,24 +124,25 @@ Voici les deux fonctions à compléter:
             return module
 ```
 ```python
-def effectuerRotation(nombreComplexe, angle_rotation, trouverModule):
+        def effectuerRotation(nombreComplexe, angle_rotation, trouverModule):
 
-    module = trouverModule(nombreComplexe)
-    angle = trouverAngle(nombreComplexe)
+            module = trouverModule(nombreComplexe)
+            angle = trouverAngle(nombreComplexe)
 
-    # TODO: Afficher le module et l'angle du nombre complexe (3 decimales de précision)
+            # TODO: Afficher le module et l'angle du nombre complexe (3 decimales de précision)
 
 
-    # TODO: Calculer le nouveau nombre complexe après rotation, assigner le nouveau nombre complexe à la variable 'resultat'
+            # TODO: Calculer le nouveau nombre complexe après rotation, assigner le nouveau nombre complexe à la variable 'resultat'
 
-    resultat =
+            resultat =
 
-    nouveauModule = trouverModule(resultat)
-    nouvelAngle = trouverAngle(resultat)
+            nouveauModule = trouverModule(resultat)
+            nouvelAngle = trouverAngle(resultat)
 
-    # TODO : Afficher le nouveau module et le nouvel angle du nombre complexe après rotation (3 decimales de précision)
-    print("Après rotation, le module reste : {:.3f} et le nouveau angle est {:.3f}".format(nouveauModule, nouvelAngle))
+            # TODO : Afficher le nouveau module et le nouvel angle du nombre complexe après rotation (3 decimales de précision)
+            print("Après rotation, le module reste : {:.3f} et le nouveau angle est {:.3f}".format(nouveauModule, nouvelAngle))
 
-    return resultat
+            return resultat
 ```
+Si votre programme à été correctement écrit, vous devriez voire une simulation visuelle du nombre complexe avant et apres rotation.
 
