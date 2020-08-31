@@ -113,29 +113,35 @@ Dans cet exercice vous devez convertir des secondes en nombres d'annés,semaine,
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
 ## Exercice 5:
-Dans cet exercice vous manipulerez les nombres complexes. Vous devez completez deux fonctions, la fonction trouverModule() qui retourne le module d'un nombre complexe et la fonction effectuerRotation() qui effectue une rotation du nombre complexe selon un angle saisit par un utilisateur. Rappel, pour faire une rotation d'un angle en radiant <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">
+Dans cet exercice vous manipulerez les nombres complexes. Vous devez completez deux fonctions, la fonction trouverModule() qui retourne le module d'un nombre complexe et la fonction effectuerRotation() qui effectue une rotation du nombre complexe selon un angle saisit par un utilisateur. Rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
+Voici les deux fonctions à compléter:
 ```python
-    def decomposer(secondes):
-        # TODO: Assigner à la variable "annees" le nombre d'années
-        annees =
+        def decomposer(secondes):
+            def trouverModule(nombreComplexe):
+            # TODO: Calculer le module du nombre complexe et l'assigner dans "module"
+            module =
 
-        # TODO: Assigner à la variable "semaines" le nombre de semaines restantes
-        semaines =
-
-        # TODO: Assigner à la variable "jours" le nombre de jours restants
-        jours =
-
-        # TODO: Assigner à la variable "heures" le nombre d'heures restantes
-        heures =
-
-        # TODO: Assigner à la variable "minute" le nombre de minutes restantes
-        minutes =
-
-        # TODO: Assigner à la variable "secondes" le nombre de secondes restantes
-        secondes =
-
-        # TODO: Afficher le nombres d'années, semaines, jours, heures, minutes et secondes
-        print(annees ,semaines ,jours ,heures ,minutes ,secondes)
-
-        return (annees ,semaines ,jours ,heures ,minutes ,secondes)
+            return module
 ```
+```python
+def effectuerRotation(nombreComplexe, angle_rotation, trouverModule):
+
+    module = trouverModule(nombreComplexe)
+    angle = trouverAngle(nombreComplexe)
+
+    # TODO: Afficher le module et l'angle du nombre complexe (3 decimales de précision)
+
+
+    # TODO: Calculer le nouveau nombre complexe après rotation, assigner le nouveau nombre complexe à la variable 'resultat'
+
+    resultat =
+
+    nouveauModule = trouverModule(resultat)
+    nouvelAngle = trouverAngle(resultat)
+
+    # TODO : Afficher le nouveau module et le nouvel angle du nombre complexe après rotation (3 decimales de précision)
+    print("Après rotation, le module reste : {:.3f} et le nouveau angle est {:.3f}".format(nouveauModule, nouvelAngle))
+
+    return resultat
+```
+
