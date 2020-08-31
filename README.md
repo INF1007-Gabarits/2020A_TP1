@@ -87,6 +87,7 @@ Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nomb
 ```
 ## Exercice 4:
 Dans cet exercice vous devez convertir des secondes en nombres d'années,semaine,jours,heures,minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autre variables pour vous aider.
+PS: On considère qu'une année est composée exactement de 365 jours !
 ```python
     def decomposer(secondes):
         # TODO: Assignez à la variable "annees" le nombre d'années
