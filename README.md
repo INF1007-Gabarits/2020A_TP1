@@ -145,7 +145,7 @@ Voici les deux fonctions à compléter:
             return resultat
 ```
 Si votre programme à été correctement écrit, vous devriez voire une simulation visuelle du nombre complexe avant et apres rotation.
-![Alt text](img/complexe_terminale.jpg?raw=true "Title")
-![Alt text](img/complexe.jpg?raw=true "Title")
+![Alt text](img/complexe_terminale.PNG?raw=true "Title")
+![Alt text](img/complexe.PNG?raw=true "Title")
 
 
