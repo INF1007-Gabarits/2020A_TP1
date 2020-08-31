@@ -146,6 +146,6 @@ Voici les deux fonctions à compléter:
 ```
 Si votre programme à été correctement écrit, vous devriez voire une simulation visuelle du nombre complexe avant et apres rotation.
 <p align="center">
-![Alt text](img/complexe.PNG?raw=true "Title")
+     <img src="img/complexe.PNG?raw=true"/>
 </p>
 
