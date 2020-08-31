@@ -113,7 +113,7 @@ Dans cet exercice vous devez convertir des secondes en nombres d'annés,semaine,
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
 ## Exercice 5:
-Dans cet exercice vous manipulerez les nombres complexes. Vous devez completez deux fonctions, la fonction trouverModule() qui retourne le module d'un nombre complexe et la fonction effectuerRotation() qui effectue une rotation du nombre complexe selon un angle saisit par un utilisateur. Rappel, pour faire une rotation d'un angle en radiant <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre par <img src="https://render.githubusercontent.com/render/math?math=cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i">
+Dans cet exercice vous manipulerez les nombres complexes. Vous devez completez deux fonctions, la fonction trouverModule() qui retourne le module d'un nombre complexe et la fonction effectuerRotation() qui effectue une rotation du nombre complexe selon un angle saisit par un utilisateur. Rappel, pour faire une rotation d'un angle en radiant <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">
 ```python
     def decomposer(secondes):
         # TODO: Assigner à la variable "annees" le nombre d'années
