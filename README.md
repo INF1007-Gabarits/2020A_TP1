@@ -6,18 +6,18 @@
 ## Objectif
 
 Ce TP a pour objectif de vous introduire à l'algorithmie avec le langage de programmation Python.
-Celui-ci est composé de 5 exercices, pour lesquels vous devez compléter le code avec l'indicateur "TODO".
+Celui-ci est composé de 5 exercices, pour lesquels vous devez compléter le code avec l'indicateur `TODO`.
 
 ## Consignes à respecter
 
-Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercces1-5.py que vous devrez compléter.
+Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercices1-5.py que vous devrez compléter.
 Pour ce TP, certaines contraintes sont à respecter:
 - Vous ne pouvez pas importer d'autres librairies que celle qui sont déjà importées dans les fichiers.
 - Il est interdit de manipuler des chaînes de caractère.
 - Il est interdit d'utiliser les structures de répétitions (for, while).
 
 ## Exercice 1:
-Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction "calculerEnergie".
+Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction `calculerEnergie()`.
 ```python
     def calculerEnergie(masse,vitesse):
         # TODO convertir la vitesse en mètre par seconde, assigner la valeur à la variable "vitesse"
@@ -30,7 +30,7 @@ Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le p
 ```
 
 ## Exercice 2:
-Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction "resoudreEquation".
+Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction `resoudreEquation()`.
 ```python
     def resoudreEquation(a, b, c):
     # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
