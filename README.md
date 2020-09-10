@@ -5,16 +5,16 @@
 
 ## Objectif
 
-Ce TP à pour objectif de vous introduire à l'algorithmie avec le langage de programmation Python.
-Celui-ci est composé de 5 exercices différents et vous devez compléter le code à chaque fois que vous voyez l'indicateur "TODO".
+Ce TP a pour objectif de vous introduire à l'algorithmie avec le langage de programmation Python.
+Celui-ci est composé de 5 exercices, pour lesquels vous devez compléter le code avec l'indicateur "TODO".
 
 ## Consignes à respecter
 
-Tout d'abord, assurez-vous d'avoir lu le fichier instruction.md et d'avoir téléchargé le fichier main.py que vous devrez compléter.
-Pour ce TP certaines contraintes sont à respecter:
-- Vous ne pouvez pas importer d'autres librairies
-- Il est interdit de manipuler des chaines de caractère.
-- Il est interdit d'utiliser les structures de répétitions(for, while, etc.) 
+Tout d'abord, assurez-vous d'avoir lu le fichier [instructions.md](instructions.md) et d'avoir téléchargé les fichiers exercces1-5.py que vous devrez compléter.
+Pour ce TP, certaines contraintes sont à respecter:
+- Vous ne pouvez pas importer d'autres librairies que celle qui sont déjà importées dans les fichiers.
+- Il est interdit de manipuler des chaînes de caractère.
+- Il est interdit d'utiliser les structures de répétitions (for, while).
 
 ## Exercice 1:
 Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction "calculerEnergie".
@@ -30,7 +30,7 @@ Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le p
 ```
 
 ## Exercice 2:
-Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir a,b,c il suffit de compléter la fonction "resoudreEquation".
+Dans cet exercice, vous devez résoudre une équation quadratique de la forme <img src="https://render.githubusercontent.com/render/math?math=ax^2"> + <img src="https://render.githubusercontent.com/render/math?math=bx"> + <img src="https://render.githubusercontent.com/render/math?math=c">. Le programme commence en demandant à l'utilisateur de saisir la valeur des variables `a`, `b` et `c`. Il suffit de compléter la fonction "resoudreEquation".
 ```python
     def resoudreEquation(a, b, c):
     # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
@@ -74,7 +74,7 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
         return x1, x2
 ```
 ## Exercice 3:
-Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nombre indiquez par l'utilisateur. Cepandant, vous pouvez uniquement utiliser les fonctions de la libraire Math.
+Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nombre indiqué par l'utilisateur. Cepandant, vous ne pouvez utiliser que les fonctions de la libraire Math.
 ```python
     def calculerNombreChiffres(nombre):
 
@@ -86,7 +86,7 @@ Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nomb
         return nombreDeChiffres
 ```
 ## Exercice 4:
-Dans cet exercice vous devez convertir des secondes en nombres d'années,semaine,jours,heures,minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autre variables pour vous aider.
+Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
 
 PS: On considère qu'une année est composée exactement de 365 jours !
 
@@ -115,8 +115,8 @@ PS: On considère qu'une année est composée exactement de 365 jours !
         return (annees ,semaines ,jours ,heures ,minutes ,secondes)
 ```
 ## Exercice 5:
-Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction trouverModule() qui retourne le module d'un nombre complexe et la fonction effectuerRotation() qui effectue une rotation du nombre selon un angle saisit par un utilisateur. Rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
-Voici les deux fonctions à compléter:
+Dans cet exercice, vous manipulerez les nombres complexes. Vous devez compléter deux fonctions, la fonction `trouverModule()` qui retourne le module d'un nombre complexe et la fonction `effectuerRotation()` qui effectue une rotation du nombre selon un angle saisi par l'utilisateur. Pour rappel, pour effectuer une rotation d'un angle <img src="https://render.githubusercontent.com/render/math?math=\alpha">, il suffit de multiplier le nombre complexe par <img src="https://render.githubusercontent.com/render/math?math=(cos(\alpha)"> + <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)i)">.
+Voici les deux fonctions à compléter :
 ```python
         def decomposer(secondes):
             def trouverModule(nombreComplexe):
