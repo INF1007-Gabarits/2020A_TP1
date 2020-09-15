@@ -17,7 +17,7 @@ Pour ce TP, certaines contraintes sont à respecter:
 - Il est interdit d'utiliser les structures de répétitions (for, while).
 
 ## Exercice 1:
-Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction `calculerEnergie()`.
+Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse (en kg) et la vitesse (en km/h) de la voiture, il suffit de compléter la fonction `calculerEnergie()`.
 ```python
     def calculerEnergie(masse,vitesse):
         # TODO convertir la vitesse en mètre par seconde, assigner la valeur à la variable "vitesse"
