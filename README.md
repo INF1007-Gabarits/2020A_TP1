@@ -17,7 +17,7 @@ Pour ce TP, certaines contraintes sont à respecter:
 - Il est interdit d'utiliser les structures de répétitions (for, while).
 
 ## Exercice 1:
-Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse (en kg) et la vitesse (en km/h) de la voiture, il suffit de compléter la fonction `calculerEnergie()`.
+Dans cet exercice, vous devez calculer l'énergie cinétique d'une voiture. Le programme commence en demandant à l'utilisateur de saisir la masse et la vitesse de la voiture, il suffit de compléter la fonction `calculerEnergie()`.
 ```python
     def calculerEnergie(masse,vitesse):
         # TODO convertir la vitesse en mètre par seconde, assigner la valeur à la variable "vitesse"
@@ -36,11 +36,11 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
     # TODO: Calculer le discriminant et assigner la valeur dans la variable "delta"
     delta =
 
-    # TODO: Déterminer la condition (bool) qui correspond à la situation où l'équation n'a aucune solution et m assigner le résultat dans la variable "naPasDeSolution"
+    # TODO: Déterminer la condition (bool) qui correspond à la situation où l'équation n'a aucune solution et assigner le résultat dans la variable "naPasDeSolution"
     naPasDeSolution =
 
     if naPasDeSolution:
-        # ces lignes de code seront executé si il y'a aucune racine
+        # ces lignes de code seront executées si il y'a aucune racine
         # TODO: afficher sur l'écran "Aucune racine"
 
         # ne pas modifier
@@ -74,11 +74,11 @@ Dans cet exercice, vous devez résoudre une équation quadratique de la forme <i
         return x1, x2
 ```
 ## Exercice 3:
-Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nombre indiqué par l'utilisateur. Cepandant, vous ne pouvez utiliser que les fonctions de la libraire Math.
+Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nombre indiqué par l'utilisateur (Par ex. le nombre 1234 contient 4 chiffres). Cependant, vous ne pouvez utiliser que les fonctions de la libraire Math.
 ```python
     def calculerNombreChiffres(nombre):
 
-        # TODO: Déterminer le nombre de chiffres de "nombre" et mettre la valeur dans "nombreDeChiffres"
+        # TODO: Déterminer le nombre de chiffres composant "nombre" et mettre la valeur dans "nombreDeChiffres"
         nombreDeChiffres =
 
         # TODO: Afficher la valeur de "nombreDeChiffres"
@@ -86,7 +86,7 @@ Dans cet exercice, vous devez calculer le nombre de chiffres qui compose un nomb
         return nombreDeChiffres
 ```
 ## Exercice 4:
-Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyé 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
+Dans cet exercice vous devez convertir un nombre de secondes en nombres d'années, semaines, jours, heures, minute et secondes. Par exemple, si l'utilisateur rentre '633323104' secondes, votre programme devra renvoyer 20 années, 4 semaines, 2 jours, 3 heures, 5 minutes et 4 secondes. Vous pouvez créer d'autres variables pour vous aider.
 
 PS: On considère qu'une année est composée exactement de 365 jours !
 
@@ -149,4 +149,3 @@ Si votre programme a été correctement écrit, vous devriez voire une simulatio
 <p align="center">
      <img src="img/complexe.PNG?raw=true"/>
 </p>
-
