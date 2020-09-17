@@ -11,7 +11,21 @@
     * https://git-scm.com/book/fr/v2
     * https://git-scm.com/docs
     * https://github.github.com/training-kit/
-    
+### En préparation à une séance
+1. Cloner le répertoire de GitHub sur votre ordinateur
+    * à partir de GitHub [(instructions à suivre)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) 
+    * ou à partir de PyCharm [(instructions à suivre)](https://www.jetbrains.com/help/pycharm/opening-your-project-for-the-first-time.html#git)
+2. Ouvrir l'exercice dans PyCharm [(instructions à suivre)](https://www.jetbrains.com/help/pycharm/importing-project-from-existing-source-code.html#existing-sources)
+ 
+### Au début et lors d'une séance
+1. Lire le [README.md](README.md)
+2. Compléter l'exercice dans PyCharm
+    * Effectuer un [git pull](https://git-scm.com/docs/git-pull/)
+      pour recevoir les modifications effectuées dans le fichier [_exercice_version_prof.py](_exercice_version_prof.py) pour fin de consultation lors des séances
+    * Effectuer les [opérations git](https://git-scm.com/docs)
+      pour envoyer vos modifications du fichier [exercice.py](exercice.py) à GitHub et au professeur
+      * utiliser [git avec GitHub Desktop](https://docs.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop#introduction)
+      * utiliser [git avec PyCharm](https://www.jetbrains.com/help/pycharm/using-git-integration.html) 
 # Étapes pour eventuellement modifier les fichiers directement sur GitHub avec Gitpod
 1. Lire le [README.md](README.md)
 2. Ouvrir le lien [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](README.md) dans le [README.md](README.md)
@@ -28,19 +42,3 @@
 5. Une fois la séance terminée, sélectionnée [Workspace | Stop Workspace](https://www.gitpod.io/docs/life-of-workspace/#timeouts)
 pour fermer votre espace de travail sur Gitpod
 
-
-### En préparation à une séance
-1. Cloner le répertoire de GitHub sur votre ordinateur
-    * à partir de GitHub [(instructions à suivre)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) 
-    * ou à partir de PyCharm [(instructions à suivre)](https://www.jetbrains.com/help/pycharm/opening-your-project-for-the-first-time.html#git)
-2. Ouvrir l'exercice dans PyCharm [(instructions à suivre)](https://www.jetbrains.com/help/pycharm/importing-project-from-existing-source-code.html#existing-sources)
- 
-### Au début et lors d'une séance
-1. Lire le [README.md](README.md)
-2. Compléter l'exercice dans PyCharm
-    * Effectuer un [git pull](https://git-scm.com/docs/git-pull/)
-      pour recevoir les modifications effectuées dans le fichier [_exercice_version_prof.py](_exercice_version_prof.py) pour fin de consultation lors des séances
-    * Effectuer les [opérations git](https://git-scm.com/docs)
-      pour envoyer vos modifications du fichier [exercice.py](exercice.py) à GitHub et au professeur
-      * utiliser [git avec GitHub Desktop](https://docs.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop#introduction)
-      * utiliser [git avec PyCharm](https://www.jetbrains.com/help/pycharm/using-git-integration.html)
