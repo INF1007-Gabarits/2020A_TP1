@@ -1,9 +1,9 @@
-from exo1 import calculerEnergie
-from exo2 import resoudreEquation
-from exo3 import calculerNombreChiffres
-from exo4 import decomposer
-from exo5 import trouverModule
-from exo5 import effectuerRotation
+from exercice1 import calculerEnergie
+from exercice2 import resoudreEquation
+from exercice3 import calculerNombreChiffres
+from exercice4 import decomposer
+from exercice5 import trouverModule
+from exercice5 import effectuerRotation
 import numpy as np
 from random import randint
 import unittest
