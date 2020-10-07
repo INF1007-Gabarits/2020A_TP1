@@ -1,5 +1,7 @@
 .github/workflows/assignment_tests.yml
 .github/workflows/pylint.yml
 README.md
+test.py
+settings/test_associations.jso
 settings/files_to_update.txt
 settings/variables.txt
