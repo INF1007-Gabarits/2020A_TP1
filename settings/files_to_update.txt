@@ -2,6 +2,6 @@
 .github/workflows/pylint.yml
 README.md
 test.py
-settings/test_associations.jso
+settings/test_associations.json
 settings/files_to_update.txt
 settings/variables.txt
