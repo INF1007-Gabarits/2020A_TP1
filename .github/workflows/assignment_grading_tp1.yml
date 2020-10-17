@@ -1,4 +1,4 @@
-name: Assignment grading
+name: Assignment grading tp1
 
 on:
   workflow_dispatch:
