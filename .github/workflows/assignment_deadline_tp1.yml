@@ -36,7 +36,7 @@
 # 2. Verify that your organization holding student repos has GitHub Pro, GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server
 # 3. Set the schedule cron
 
-name: Assignment deadline
+name: Assignment deadline tp1
 
 on:
   workflow_dispatch:
