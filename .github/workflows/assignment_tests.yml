@@ -14,7 +14,7 @@ jobs:
       - name: Run tests
         run: |
           source settings/variables.txt
-          
+
           python3 -m pip install -q setuptools
           python3 -m pip install -q git+${{ secrets.CLASSROOM_TOOLS_URL }}
           python3 -m pip install -q -r requirements.txt
