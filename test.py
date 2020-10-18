@@ -27,7 +27,8 @@ class TestExercice2(unittest.TestCase):
     def test_two_solutions(self):
         a, b, c = 1, -4, 3
         x1, x2 = 1, 3
-        self.assertAlmostEqual(resoudreEquation(a, b, c), (x1, x2))
+        self.assertAlmostEqual(resoudreEquation(a, b, c)[0], x1)
+        self.assertAlmostEqual(resoudreEquation(a, b, c)[1], x2)
 
 class TestExercise3(unittest.TestCase):
     def test_chiffres(self):
